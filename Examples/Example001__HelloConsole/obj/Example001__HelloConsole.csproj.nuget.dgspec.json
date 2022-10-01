@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IT\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj": {}
+    "C:\\IT\\Education_C#\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj": {}
   },
   "projects": {
-    "C:\\IT\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj": {
+    "C:\\IT\\Education_C#\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IT\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj",
+        "projectUniqueName": "C:\\IT\\Education_C#\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj",
         "projectName": "Example001__HelloConsole",
-        "projectPath": "C:\\IT\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj",
+        "projectPath": "C:\\IT\\Education_C#\\Examples\\Example001__HelloConsole\\Example001__HelloConsole.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\IT\\Examples\\Example001__HelloConsole\\obj\\",
+        "outputPath": "C:\\IT\\Education_C#\\Examples\\Example001__HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
