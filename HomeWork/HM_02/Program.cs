@@ -3,9 +3,9 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int a = 22;
+int a = -22;
 int b = 9;
-int c = 3;
+int c = -3;
 
 int max = a;
 
