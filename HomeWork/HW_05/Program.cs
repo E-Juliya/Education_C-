@@ -7,10 +7,14 @@
 */
 Console.WriteLine("Введите трёхзначное число"); 
 string a = Console.ReadLine();
-            //for (int i = 0; i < str.Length; i++)
-            //{
-                Console.WriteLine("Вторая цифра числа: " + a[1]);
-            //}
-            //Console.ReadKey();
-            
-            
+
+NewMethod(SecondNumber);
+
+static void NewMethod(string a)
+{
+    //for (int i = 0; i < str.Length; i++)
+    //{
+    Console.WriteLine("Вторая цифра числа: " + a[1]);
+    //}
+    //Console.ReadKey();
+}
