@@ -29,7 +29,7 @@ int Number(int number);
 }
 //Console.Write("Введите число ");
 //int number = int.Parse(Console.ReadLine());
-*/
+
 static void task13(int num)
     {
 
@@ -39,3 +39,26 @@ static void task13(int num)
         }
         else   Console.WriteLine("Третьего числа нет");
     }
+
+    */
+    double GetValue(string text)
+{
+    Console.WriteLine(text + " ");
+    double value = Convert.ToDouble(Console.ReadLine());
+    return value;
+}
+
+
+
+double Index2(double N)
+{
+double a1 = (N % 100);
+double a2 = (N % 10);
+double a3 = (a1 - a2) / 10;
+return a3;
+}
+
+double N = GetValue("Ваше трёхзначное число?");
+Index2(N);
+
+Console.WriteLine("Вторая цифра " + Index2(N));

@@ -5,16 +5,23 @@
 782 -> 8
 918 -> 1
 */
-Console.WriteLine("Введите трёхзначное число"); 
-string a = Console.ReadLine();
 
-NewMethod(SecondNumber);
-
-static void NewMethod(string a)
+double GetValue(string text)
 {
-    //for (int i = 0; i < str.Length; i++)
-    //{
-    Console.WriteLine("Вторая цифра числа: " + a[1]);
-    //}
-    //Console.ReadKey();
+    Console.WriteLine(text + " ");
+    double value = Convert.ToDouble(Console.ReadLine());
+    return value;
 }
+
+double Index2(double N)
+{
+double a1 = (N % 100);
+double a2 = (N % 10);
+double a3 = (a1 - a2) / 10;
+return a3;
+}
+
+double N = GetValue("Ваше трёхзначное число?");
+Index2(N);
+
+Console.WriteLine("Вторая цифра " + Index2(N));
