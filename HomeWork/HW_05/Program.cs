@@ -12,7 +12,6 @@ double GetValue(string text)
     double value = Convert.ToDouble(Console.ReadLine());
     return value;
 }
-
 double Index2(double N)
 {
 double a1 = (N % 100);
