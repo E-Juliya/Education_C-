@@ -20,7 +20,7 @@ double a3 = (a1 - a2) / 10;
 return a3;
 }
 
-double N = GetValue("Ваше трёхзначное число?");
+double N = GetValue("Укажите трёхзначное число?");
 Index2(N);
 
 Console.WriteLine("Вторая цифра " + Index2(N));
