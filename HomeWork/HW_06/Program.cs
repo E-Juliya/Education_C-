@@ -4,12 +4,9 @@
 78 -> третьей цифры нет
 32679 -> 6
 */
-
-
 Console.Write("Введите любое число: N = ");
 
 ThirdMethod(); ;
-
 void ThirdMethod()
 {
     int N = Convert.ToInt32(Console.ReadLine());
