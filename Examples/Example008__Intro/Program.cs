@@ -9,11 +9,10 @@ int[] array = {11,12,13,41,51,61,71,81,91};
 array[0] = 12;
 Console.WriteLine (array[0]);
 
-/*
+
 int max = Max(
     Max(a1, b1, c1), 
     Max(a2, b2, c2), 
     Max(a3, b3, c3));
 
 Console.WriteLine(max);
-*/
