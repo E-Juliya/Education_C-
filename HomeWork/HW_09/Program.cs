@@ -15,8 +15,8 @@ Console.WriteLine("Введите координату Y точки B");
 double Y2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите координату Z точки B");
 double Z2 = Convert.ToDouble(Console.ReadLine());
-double S = Convert.ToDouble(Math.Sqrt((X2-X1)*(X2-X1)+(Y2-Y1)*(Y2-Y1)+(Z2-Z1)*(Z2-Z1)));
-//int S = Math.Sqrt((X2-X1)^2+(Y2-Y1)^2+(Z2-Z1)^2);
+double S = Convert.ToDouble(Math.Sqrt((X2 - X1) * (X2 - X1) + (Y2 - Y1) * (Y2 - Y1) + (Z2 - Z1) * (Z2 - Z1)));
+//int S = Math.Pow(x, stepen)// ((X2-X1), 2) +((Y2-Y1),2)+((Z2-Z1),2));?
 Console.WriteLine("Расстоние между точками");
-//double S = Convert.ToDouble(Math.Sqrt(1.44));
-Console.Write(S); 
+//double S = Convert.ToDouble(Math.Pow(1.44));
+Console.Write(S);

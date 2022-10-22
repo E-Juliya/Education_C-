@@ -4,9 +4,10 @@
 5 -> 1, 8, 27, 64, 125*/
 Console.WriteLine("Введите число N");
 int N = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i < N+1; i++)
-        { int K=i*i*i; Console.Write(K); Console.Write(" ");}
-       // for (J = 0; N > 100; J++)
-       // { N = N - 100; }
-       // Console.Write("Третья цифра введённого числа = ");
-       // Console.Write(J);
+for (int i = 1; i < N + 1; i++)
+{ int K = i * i * i; Console.Write(K); Console.Write(" "); }
+// int K = Math.Pow(i, 3); ?
+// for (J = 0; N > 100; J++)
+// { N = N - 100; }
+// Console.Write("Третья цифра введённого числа = ");
+// Console.Write(J);
