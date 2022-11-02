@@ -27,7 +27,6 @@ int[] StringToNum(string input)
             count++;
         }
     }
-
     int[] M = new int[count];
     int index = 0;
 
@@ -53,7 +52,6 @@ int[] StringToNum(string input)
     }
     return M;
 }
-
 void PrintArray(int[] array)
 {
     Console.Write("[ ");
@@ -63,4 +61,3 @@ void PrintArray(int[] array)
     }
     Console.Write("]");
 }
-
