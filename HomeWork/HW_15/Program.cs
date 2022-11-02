@@ -1,4 +1,4 @@
-﻿/*Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел 
+﻿/*Урок 6. Двумерные массивы и рекурсия. Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел 
 больше 0 ввёл пользователь.
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3*/
@@ -28,25 +28,25 @@ int[] StringToNum(string input)
         }
     }
 
-    int[] M = new int [count];
+    int[] M = new int[count];
     int index = 0;
 
     for (int i = 0; i < input.Length; i++)
     {
         string temp = "";
 
-        while (input [i] != ',')
+        while (input[i] != ',')
         {
-        if(i != input.Length - 1)
-        {
-            temp += input [i].ToString();
-            i++;
-        }
-        else
-        {
-            temp += input [i].ToString();
-            break;
-        }
+            if (i != input.Length - 1)
+            {
+                temp += input[i].ToString();
+                i++;
+            }
+            else
+            {
+                temp += input[i].ToString();
+                break;
+            }
         }
         M[index] = Convert.ToInt32(temp);
         index++;
