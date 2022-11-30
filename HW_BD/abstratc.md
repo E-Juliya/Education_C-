@@ -21,3 +21,7 @@
     SELECT Name, Job, Years
       FROM Staff
 	      WHERE Name LIKE 'S_
+
+# Типы данных
+
+Можно подсмотреть тут: [https://sql-language.ru/osnova-sql/tipy-dannykh-sql.html]
